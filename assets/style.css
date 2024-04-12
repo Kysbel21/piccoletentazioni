@@ -21,11 +21,11 @@ una regla se compone de un SELECTOR y sus REGLAS
     margin: unset;
 
 
-    border: solid 2px red;
+    box-sizing: border-box;
+
+
+    /* border: solid 2px red; */
     /* explicacion la casa siguiente */
-
-
-
     /* 
     Medidas responsivas (adactativa)
     % porcentaje
@@ -34,13 +34,9 @@ una regla se compone de un SELECTOR y sus REGLAS
 
     Medidas fijas
     px pixeles
-    pt
-    
-    
+    pt  
     */
 }
-
-
 /* p{
     color: red;
     font-size: 16px;
@@ -48,7 +44,10 @@ una regla se compone de un SELECTOR y sus REGLAS
     font-weight: 400;
 } */
 
+section{
+    padding: 30px 30px;
 
+}
 button{
     background-color: transparent;
     border: solid 2px #D9B589;
@@ -58,20 +57,68 @@ button{
 }
 
 .navbar__nav {
+    padding: 24px 60px; 
     display: flex;
     gap: 30px;
-    /* justify-content: space-between;
-    height: 300px;
-    align-items: flex-start; */
+    justify-content: space-between;  
+   
 }
 
 .navbar__nav__list {
         display: flex;
         gap: 30px;
-
 }
 
  section{
     background-image: url(/);
     background-size: 100%;
  }
+
+ .Jumbotrom{
+    background-image: url("/assets/piccoletentazioni.jpeg");
+    background-size: 100%;
+    background-position: 50px;
+    color: white;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+ }
+ .Jumbotrom button{
+    color: white;
+ }
+ .section-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+ }
+
+.product-container{
+    display: flex;
+    justify-content: center;
+}
+.product-container__product{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.product-container__product img{
+    width: 80%;
+}
+
+.cake-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

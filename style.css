@@ -37,6 +37,10 @@ una regla se compone de un SELECTOR y sus REGLAS
     pt  
     */
 }
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
 /* p{
     color: red;
     font-size: 16px;
@@ -47,10 +51,8 @@ una regla se compone de un SELECTOR y sus REGLAS
     display: flex;
     flex-direction: column;  
 }
-.titulo-seccion h2 {
-    text-align: center;
-    font-weight: 600;
-}
+
+
 section{
     padding: 30px 30px;
 
@@ -139,9 +141,11 @@ button{
     align-items: center;
 }
 
-.nosotros-container{
-    
+.nosotros {
+    height: 800px;
 }
+    
+
 
 
     /* display: flex;

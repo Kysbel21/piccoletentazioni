@@ -159,9 +159,15 @@ table td {
     border-radius:15px;
     padding: 0 auto;
     height: 270px;
-
 }
 
+.end{
+    padding: 24px 60px; 
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;  
+
+}
 
 
     /* display: flex;

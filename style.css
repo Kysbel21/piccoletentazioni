@@ -81,7 +81,8 @@ button{
     padding: 24px 60px; 
     display: flex;
     gap: 30px;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    align-items: center; 
    
 }
 
